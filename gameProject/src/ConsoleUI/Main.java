@@ -22,7 +22,7 @@ public class Main {
     Game game1=new Game(1,100,"PUBG");
     Campaign campaign = new Campaign(1,"Öðrenci Kampanyasý");
     SaleManager saleManager = new SaleManager();
-    saleManager.Buy(esma, game1, campaignService);
+    saleManager.Buy(esma, game1, campaign);
     
     
     

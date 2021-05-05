@@ -6,13 +6,7 @@ import gameProject.Entity.Game;
 
 public class CampaignManager implements CampaignService {
 
-	@Override
-	public void discount(Game game) {
-		game.setPrice(game.getPrice()*0.5);
-		System.out.println(game.getName()+" oyununun Yeni fiyatý:" +game.getPrice());
-		
-		
-	}
+
 
 	@Override
 	public void add(Campaign campaign) {

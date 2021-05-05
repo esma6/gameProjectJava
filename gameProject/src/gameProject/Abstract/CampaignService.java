@@ -9,6 +9,6 @@ public interface CampaignService {
 	void delete(Campaign campaign);
 	void update(Campaign campaign); 
 	
-	void discount(Game game);
+	
 
 }
